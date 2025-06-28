@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>MoneyMamas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- NAVIGATION -->
+  <nav class="bg-white shadow sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-6 flex items-center justify-between h-16">
+      <a href="index.html" class="text-2xl font-bold text-pink-600">MoneyMamas</a>
+      <button id="navToggle" aria-label="Toggle menu" class="md:hidden text-2xl">☰</button>
+      <ul id="navList" class="hidden md:flex space-x-8">
+        <li><a href="index.html" class="hover:text-pink-600 font-semibold">Home</a></li>
+        <li><a href="countdown.html"   class="hover:text-pink-600 font-semibold">Countdown</a></li>
+        <li><a href="modules.html" class="hover:text-pink-600 font-semibold">Modules</a></li>
+        <li><a href="consulting.html" class="text-pink-600 font-semibold">Consulting</a></li>
+        <li><a href="ContactUs.html" class="text-pink-600 font-semibold">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    document.getElementById('navToggle')
+      .addEventListener('click', () =>
+        document.getElementById('navList').classList.toggle('hidden')
+      );
+  </script>
+
+  <!-- HERO -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image:url('MOMMONEYBG.png');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 flex flex-col items-start justify-center h-full text-white px-6 md:px-12 max-w-4xl space-y-6">
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+        Mama's Money makes you marvelous!
+      </h1>
+      <p class="text-lg md:text-1xl">
+      In our 7-week program, you’ll build real-world money skills (no jargon!) through hands-on budgeting labs, mindset-shifting exercises, and community challenges designed for busy moms. By the end, you won’t just understand your finances—you’ll own them, future-proofing your family’s security and creating a legacy of confidence, not just for today, but for every tomorrow., .
+      </p>
+      <div class="flex flex-wrap gap-4">
+         <a href="register.html"
+           class="bg-pink-600 hover:bg-pink-300 transition text-white font-semibold px-6 py-3 rounded-full shadow-lg">
+          Register Now
+        </a>
+        <a href="modules.html"
+           class="bg-pink-600 hover:bg-pink-100 transition text-white font-semibold px-6 py-3 rounded-full shadow-lg">
+          View Modules
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WHY IT MATTERS -->
+  <section id="why" class="bg-pink-50 py-16">
+    <div class="max-w-4xl mx-auto px-6 space-y-8 text-gray-800">
+      <h2 class="text-3xl font-bold text-center text-pink-700">Why This Workshop Matters</h2>
+      <article class="prose prose-pink mx-auto">
+        <p>Too many moms feel stuck on paycheck‐to‐paycheck, juggling diapers and bills but never quite making ends meet. That financial stress bleeds into every corner—family outings get canceled, dreams get sidelined, and peace of mind becomes a luxury.</p>
+        <h3>Pain Points We Tackle</h3>
+        <ul>
+          <li><strong>Never-ending expenses:</strong> Groceries, utilities, school fees … it never stops.</li>
+          <li><strong>No clear plan:</strong> Money feels like a mystery, not a tool.</li>
+          <li><strong>Zero savings:</strong> Emergencies hit hard when you have no buffer.</li>
+        </ul>
+        <h3>How You’ll Win</h3>
+        <ul>
+          <li><strong>Mindset shift:</strong> Unpack limiting beliefs and build abundance habits.</li>
+          <li><strong>Hands-on budgeting:</strong> From envelopes to apps—you’ll find what sticks.</li>
+          <li><strong>Actionable goals:</strong> Real milestones you can celebrate, Pula by Pula.</li>
+        </ul>
+        <p>By the end of four weeks, you’ll have a personalized money roadmap, a community cheering you on, and—a renewed financial confidence to pass on to your kids.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">What Other Moms Are Saying</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <blockquote class="bg-white p-6 rounded-xl shadow space-y-4">
+          <p class="italic">“I never thought I could save—now I have P3,000 in my emergency fund and counting!”</p>
+          <footer class="font-semibold text-gray-700">– Naledi, Gaborone</footer>
+        </blockquote>
+        <blockquote class="bg-white p-6 rounded-xl shadow space-y-4">
+          <p class="italic">“Zero-based budgeting changed everything—I know exactly where every pula goes.”</p>
+          <footer class="font-semibold text-gray-700">– Lesedi, Francistown</footer>
+        </blockquote>
+        <blockquote class="bg-white p-6 rounded-xl shadow space-y-4">
+          <p class="italic">“I went from overwhelmed by bills to excited about my money mastery journey!”</p>
+          <footer class="font-semibold text-gray-700">– Thato, Maun</footer>
+        </blockquote>
+        <blockquote class="bg-white p-6 rounded-xl shadow space-y-4">
+          <p class="italic">“Community lifted me up when I almost gave up. Thank you!”</p>
+          <footer class="font-semibold text-gray-700">– Palesa, Kanye</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT COUNTER -->
+  <section id="impact" class="bg-pink-100 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-12 text-gray-800">
+      <h2 class="text-3xl font-bold text-pink-700">Our Impact So Far</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div>
+          <span class="impact-count text-5xl font-extrabold text-pink-600" data-target="1500">0</span>
+          <p class="mt-2">Moms Empowered</p>
+        </div>
+        <div>
+          <span class="impact-count text-5xl font-extrabold text-pink-600" data-target="3200">0</span>
+          <p class="mt-2">Goals Achieved</p>
+        </div>
+        <div>
+          <span class="impact-count text-5xl font-extrabold text-pink-600" data-target="450000">0</span>
+          <p class="mt-2">Pula Saved</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTER SCRIPT -->
+  <script>
+    document.querySelectorAll('.impact-count').forEach(counter => {
+      const update = () => {
+        const target = +counter.dataset.target;
+        const current = +counter.innerText;
+        const inc = Math.ceil(target / 200);
+        if (current < target) {
+          counter.innerText = current + inc;
+          setTimeout(update, 20);
+        } else {
+          counter.innerText = target.toLocaleString();
+        }
+      };
+      update();
+    });
+  </script>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-200 text-gray-700 py-8">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-2 text-sm">
+      <p>© 2025 Mom & Me Workshop. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="privacy.html" class="hover:underline">Privacy Policy</a>|
+        <a href="terms.html" class="hover:underline">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
